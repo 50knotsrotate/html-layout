@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.side {
+    width: 150px;
+    height: 87.55vh;
+    background-color: gray;
+    overflow: hidden;
+}
+
+#side1 {
+    float: left;
+    overflow: hidden;
+}
+
+#side2 {
+    float: right;
+    overflow: hidden;
+}
+
+#top {
+    width: 100vw;
+    height: 120px;
+    background-color: darkgrey;
+}
+
+#bottom {
+    height: 60px;
+    background-color: black;
+    margin-top: 685px;
+}
