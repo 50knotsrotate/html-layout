@@ -1,0 +1,68 @@
+#container1 {
+    width: 95vw;
+    height: 175px;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+
+#rectangle1 {
+    height: 125px;
+    width: 50px;
+    background-color: purple;
+}
+
+#rectangle2 {
+    height: 90%;
+    width: 320px;
+    background-color: green;
+}
+
+#circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    background-color: cyan;
+
+
+}
+
+.container1 {
+    display: inline-block;
+    margin: 10px 25px;
+}
+
+#container2 {
+    width: 95vw;
+    height: 250px;
+    border: 3px dotted black;
+    margin: 80px auto;
+
+}
+
+
+#rectangle {
+    width: 90%;
+    height: 80%;
+    background-color: lightsalmon;
+    margin: 0 auto;
+    margin: 25px auto;
+    box-shadow: 3px 3px 20px black;
+
+}
+
+#container3 {
+    margin: 0 auto;
+    width: 25vw;
+    height: 300px;
+    box-shadow: 1px 1px 5px black;
+
+}
+
+/* Yeah, I used flex box. Sue me */
+#hello-friends {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
